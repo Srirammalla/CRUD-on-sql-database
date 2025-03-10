@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(57,62,65);
+    color: rgb(246,247,235);
+    display: flex;
+    flex-wrap: wrap;
+}
+h2{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+form{
+    width: 50%;
+}
+#form{
+    border: 2px solid black;
+    margin: auto 30% ;
+}
+#Submit,#edit,#delete{
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+input,button{
+    width:25%;
+    margin:auto 35% ;
+    border-radius: 10%;
+}#blue{
+    width: 100%;
+    border-radius: 5%;
+    margin: auto 50%;
+}
+#form1,#form2{
+    width: 100%;
+    border: 2px solid black;
+    margin: auto 30% ;
+}
+#join,#delete,td{
+    background-color: rgb(246,247,235);
+}
+#users,#edit,#Submit,#blue{
+    background-color: rgb(233,79,55);
+}
+th{
+    background-color: bisque;
+}
+td,th{
+    color: rgb(57,62,65);
+}
+table{
+    width: 100%;
+}

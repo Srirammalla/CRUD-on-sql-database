@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h2>You are about to edit these User <%= user.email%></h2>
+    <form id="form1" method="post" action="/user/<%=user.id%>/?_method=PATCH">
+        <textarea name="username"><%=user.user%></textarea>
+        <input type="password" name ="password" placeholder="Enter the password">
+        <button id="edit">Edit</button>
+    </form>
+    <form id="form2" method="post" action="/user/<%=user.id%>/delete/?_method=DELETE">
+        <textarea name="username"><%=user.user%></textarea>
+        <input type="password" name ="password" placeholder="Enter the password">
+        <button id="delete">Delete</button>
+    </form>
+</body>
+</html>
